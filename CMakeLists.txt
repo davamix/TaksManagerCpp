@@ -3,4 +3,6 @@ project ("Task Manager")
 
 set (CMAKE_CXX_STANDARD 11)
 
-add_executable(task_list task_list.cpp task_manager.cpp task.cpp)
+file (GLOB SOURCE_FILES src/*.cpp)
+
+add_executable(task_list ${SOURCE_FILES})

@@ -1,6 +1,6 @@
 #include <iostream>
-#include "task.h"
-#include "task_manager.h"
+#include "include/task.h"
+#include "include/task_manager.h"
 
 // https://hackernoon.com/error-handling-in-c-or-why-you-should-use-eithers-in-favor-of-exceptions-and-error-codes-f0640912eb45
 //
@@ -86,7 +86,7 @@ void remove_task(TaskManager& manager){
 }
 
 void save_task(TaskManager& manager){
-    show_debug("Saving tasks");
+    //show_debug("Saving tasks");
     manager.save();
 }
 
