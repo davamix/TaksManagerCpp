@@ -1,6 +1,11 @@
 # TaksManagerCpp
 [C++ sample] Console application to add / remove text from file
 
+Build with CMake 3.5
+
 ```
-g++-7 *.h *.cpp -o task_list
+mkdir build
+cd build
+cmake ..
+make
 ```
